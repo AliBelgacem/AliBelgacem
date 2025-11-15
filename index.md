@@ -149,7 +149,7 @@ blockquote {
 <body>
 
 <header id="home">
-    <img src="[profile.jpg](https://avatars.githubusercontent.com/u/73390640?v=4)" alt="Ali Belgacem">
+    <img src="https://avatars.githubusercontent.com/u/73390640?v=4" alt="Ali Belgacem">
     <h1>Ali Belgacem</h1>
     <p>Computer Engineer | PhD Candidate in AI | Delphi & Java Developer</p>
 </header>
