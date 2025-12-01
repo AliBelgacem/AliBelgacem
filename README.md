@@ -7,7 +7,7 @@ I develop intelligent, robust, and scalable applications using **Delphi** and **
 
 ## 🚀 About Me
 - 🎓 PhD Researcher focusing on **Machine learning based Temporal knowledge graphs, Completion and repair** 
-- 💻 Developer specializing in **Delphi** & **Java applications**
+- 💻 Developer specializing in **Delphi**, **Python** & **Java applications**
 - 🤖 Passionate about **Machine Learning**, **Deep Learning**, and **Data Mining**
 - 🧠 Interested in software architecture, optimization, and intelligent systems
 - 🌍 Always learning, exploring, and creating
@@ -26,7 +26,8 @@ I develop intelligent, robust, and scalable applications using **Delphi** and **
 ### **Software & Tools**
 - Git & GitHub  
 - JavaFX • Java Swing • Spring Boot  
-- Embarcadero    
+- Embarcadero
+- Python    
 
 ---
 
