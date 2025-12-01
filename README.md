@@ -71,4 +71,4 @@ I develop intelligent, robust, and scalable applications using **Delphi** and **
 
 ---
 
-### ⭐ If you like my work, feel free to star some repositories — it helps a lot!
+## ⭐ If you like my work, feel free to star some repositories — it helps a lot!
