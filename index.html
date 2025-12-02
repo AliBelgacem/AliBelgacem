@@ -210,8 +210,8 @@ blockquote {
     
     <div class="github-container">
         <!-- Main Stats -->
-        <div class="stats-main">
-            <img src="https://github-stats-alpha.vercel.app/api?username=alibelgacem&cc=000&tc=fff&ic=fff&bc=000" alt="GitHub Stats">
+        <div class="stats-main-wrapper">
+            <img src="https://github-stats-alpha.vercel.app/api?username=alibelgacem&cc=000&tc=fff&ic=fff&bc=000" alt="GitHub Stats" class="stats-main">
         </div>
         
         <!-- Top Languages Side by Side -->
@@ -240,27 +240,36 @@ blockquote {
     flex-direction: column;
     align-items: center;
     gap: 25px;
+    width: 100%;
 }
 
-.stats-main img {
-    width: 500px;
+/* Main stats wrapper - width = (2 * lang-card width) + gap */
+.stats-main-wrapper {
+    width: 820px; /* 400px + 20px + 400px */
     max-width: 100%;
+    text-align: center;
+}
+
+.stats-main {
+    width: 100%;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
+/* Language cards container */
 .stats-languages {
     display: flex;
     gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
-    width: 100%;
+    width: 820px; /* SAME AS stats-main-wrapper */
+    max-width: 100%;
 }
 
+/* Each language card - half of main stats width minus half the gap */
 .lang-card {
-    flex: 1;
-    min-width: 300px;
-    max-width: 400px;
+    width: 400px; /* (820px - 20px) / 2 = 400px */
+    max-width: calc(50% - 10px); /* Accounts for the gap */
     text-align: center;
 }
 
@@ -289,14 +298,30 @@ blockquote {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-@media (max-width: 768px) {
+/* Responsive: When screen is too small, stack everything */
+@media (max-width: 850px) {
+    .stats-main-wrapper,
     .stats-languages {
-        flex-direction: column;
-        align-items: center;
+        width: 400px;
     }
     
     .lang-card {
+        width: 400px;
         max-width: 100%;
+    }
+    
+    .stats-languages {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    .stats-main-wrapper,
+    .stats-languages,
+    .lang-card {
+        width: 100%;
     }
 }
 </style>
