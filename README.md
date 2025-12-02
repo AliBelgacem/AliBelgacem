@@ -55,9 +55,13 @@ I develop intelligent, robust, and scalable applications using **Delphi** and **
 
 ![GitHub Stats](https://github-stats-alpha.vercel.app/api?username=alibelgacem&cc=000&tc=fff&ic=fff&bc=000)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=alibelgacem&layout=compact)
+![Most Commit Language](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=alibelgacem&theme=github)
 
-![Profile Views](https://komarev.com/ghpvc/?username=alibelgacem)
+![Repos Per Language](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=alibelgacem&theme=github)
+
+![Followers](https://img.shields.io/github/followers/alibelgacem?label=Followers&style=for-the-badge&color=blue)
+
+![Profile Views](https://komarev.com/ghpvc/?username=alibelgacem&color=green&label=Profile+Views)
 
 ---
 
